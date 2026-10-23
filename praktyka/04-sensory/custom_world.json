@@ -1,0 +1,118 @@
+{
+  "worldName": "custom",
+  "options": {
+    "imageURL": "textures/maps/grid.png",
+    "groundType": "box",
+    "length": 100,
+    "width": 100,
+    "uScale": 15,
+    "vScale": 10,
+    "imageScale": 2.3529412,
+    "timer": "none",
+    "timerDuration": 60,
+    "timerEnd": "continue",
+    "wall": true,
+    "wallHeight": 20,
+    "wallThickness": 5,
+    "wallColor": "#808080",
+    "groundFriction": 1,
+    "wallFriction": 0.1,
+    "groundRestitution": 0,
+    "wallRestitution": 0.1,
+    "restartAnimationOnRun": false,
+    "objects": [
+      {
+        "type": "box",
+        "position": [
+          30,
+          -45,
+          10
+        ],
+        "size": [
+          240,
+          5,
+          20
+        ],
+        "color": "#7A7A7A"
+      },
+      {
+        "type": "box",
+        "position": [
+          -30,
+          10,
+          10
+        ],
+        "size": [
+          240,
+          5,
+          20
+        ],
+        "color": "#7A7A7A"
+      },
+      {
+        "type": "box",
+        "position": [
+          0,
+          35,
+          10
+        ],
+        "size": [
+          5,
+          50,
+          20
+        ],
+        "color": "#7A7A7A"
+      },
+      {
+        "type": "box",
+        "position": [
+          -80,
+          75,
+          10
+        ],
+        "size": [
+          5,
+          50,
+          20
+        ],
+        "color": "#7A7A7A"
+      },
+      {
+        "type": "box",
+        "position": [
+          90,
+          75,
+          10
+        ],
+        "size": [
+          5,
+          50,
+          20
+        ],
+        "color": "#7A7A7A"
+      },
+      {
+        "type": "box",
+        "position": [
+          -120,
+          -72,
+          0.1
+        ],
+        "size": [
+          40,
+          40,
+          0.2
+        ],
+        "color": "#F2C200",
+        "physicsOptions": false
+      }
+    ],
+    "startPos": "center",
+    "startPosXYZStr": "-120,-72",
+    "startRotStr": "0",
+    "startPosXYZ": null,
+    "startRot": null,
+    "arenaStartPosXYZ": null,
+    "arenaStartRot": null
+  }
+}
